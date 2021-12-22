@@ -22,7 +22,7 @@ http
     if ("name" in query) {
       res.write(query["name"]);
     } else {
-      res.write("noname");
+      res.write("Dmitry");
     }
     res.write(", today is ");
     res.write(days[dayofweek]);
